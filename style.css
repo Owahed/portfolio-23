@@ -26,27 +26,10 @@
   width: 100%;
   overflow: hidden;
 }
-/* #mouse {
-  height: 20px;
-  width: 20px;
-  background-color: white;
-  border-radius: 20px;
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  z-index: 10000;
-
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 500ms ease;
-}
-body:hover > #mouse {
-  opacity: 1;
-} */
 
 #mouse {
   background-color: var(--color);
-  height: 300px;
+  height: 500px;
   aspect-ratio: 1;
   position: absolute;
   left: 50%;
@@ -69,13 +52,6 @@ body:hover > #mouse {
     rotate: 360deg;
   }
 }
-/* #blur {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  z-index: 2;
-  backdrop-filter: blur(200px);
-} */
 
 .header {
   padding-top: 3.33em;
@@ -160,7 +136,7 @@ body:hover > #mouse {
   }
 }
 
-h1 > .magic > .magic-text {
+.magic > .magic-text {
   animation: background-pen 3s linear infinite;
   background: linear-gradient(
     to right,
