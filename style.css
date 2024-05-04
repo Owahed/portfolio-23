@@ -182,6 +182,7 @@ svg:not(:root) {
   font-size: 1.5em;
   font-weight: 500;
   color: var(--color);
+  text-transform: uppercase;
 }
 .project-wrapper {
   display: block;
